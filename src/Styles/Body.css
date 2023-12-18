@@ -1,0 +1,15 @@
+.container_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.body {
+    border: 0.5px solid black;
+    width: 70%;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

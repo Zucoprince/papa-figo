@@ -1,0 +1,56 @@
+@import url("https://fonts.cdnfonts.com/css/dead-kansas");
+@import url("https://fonts.cdnfonts.com/css/playfair");
+
+.container_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #9e55bd;
+  height: 130px;
+}
+
+.container_logo {
+  font-family: "Dead Kansas", sans-serif;
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.container_logo:hover {
+  transform: scale(1.2);
+}
+
+.header_img {
+  width: 100px;
+  margin-left: -6px;
+}
+
+.header_title {
+  font-size: 40px;
+}
+
+button {
+  font-family: "Dead Kansas", sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: transparent;
+  font-size: 23px;
+  width: 100px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: rgb(94, 41, 84);
+  border-radius: 20px;
+  border: 2px solid #dbb000;
+}
+
+.header_top_ten {
+  width: 140px;
+}

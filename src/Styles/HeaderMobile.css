@@ -1,0 +1,32 @@
+@import url("https://fonts.cdnfonts.com/css/dead-kansas");
+@import url("https://fonts.cdnfonts.com/css/playfair");
+
+@media only screen and (max-width: 900px) {
+  .container_header {
+    height: 110px;
+  }
+
+  .header_img {
+    width: 70px;
+  }
+
+  .header_title {
+    font-size: 30px;
+  }
+
+  button {
+    font-size: 15px;
+    width: 70px;
+    height: 50px;
+  }
+
+  button:hover {
+    background-color: rgb(94, 41, 84);
+    border-radius: 20px;
+    border: 2px solid #dbb000;
+  }
+
+  .header_top_ten {
+    width: 70px;
+  }
+}
